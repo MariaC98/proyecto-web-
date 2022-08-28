@@ -1,0 +1,168 @@
+:root {
+    --primario: #3d293d;
+    --secundario: #7cc2a8;
+    --terciario: #ffffff;
+}
+
+html {
+    height: 100%;
+}
+
+.titulo {
+    color: var(--primario);
+    text-align: center;
+    font-family: staatliches;
+    font-size: 60px;
+}
+h1 {
+    color: var(--primario);
+    text-align: center;
+    font-family: staatliches;
+    font-size: 60px;
+}
+
+.titulo span {
+    font-size: 20px;
+    text-align: top;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--secundario), var(--primario));
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: auto;
+}
+
+.nav-bg {
+    background-color: var(--primario);
+    padding: 10px;
+}
+
+.navegacion-principal a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    font-family: prompt;
+    align-items: center;
+
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--terciario);
+    color: var(--primario)
+}
+
+.presentaciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.presentacion {
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: center;
+    padding: 30px;
+
+}
+
+.footer {
+    text-align: center;
+    color: var(--terciario)
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: prompt;
+    text-align: center;
+    font-size: 22px;
+}
+
+.presentacion2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p {
+    padding: 18px;
+    text-align: center;
+}
+
+/*contacto*/
+
+.formulario {
+    background-color: var(--primario);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--primario);
+}
+
+.fieldset{
+    border:none;
+}
+.contenedor-campos {
+    margin: 30px;
+    display: grid;
+    padding-right: 30px;
+}
+
+.campo label {
+    color: white;
+    font-family: prompt;
+    border: none;
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    ;
+    border-radius: 10px;
+}
+
+
+.campo textarea {
+    height: 200px
+}
+
+.button {
+    background-color: var(--secundario);
+    color: var(--primario);
+    padding: 10px 30px;
+    margin-top:30px;
+    font-family: prompt;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    border: none;
+}
+.button:hover{
+    cursor:pointer;
+    color: var(--primario);
+    background-color: #ffffff;
+}
